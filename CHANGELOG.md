@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/AndreyZlobin/semantic/compare/v1.2.0...v1.3.0) (2023-09-21)
+
+
+### ✨ Features
+
+* Number test ([246bf3a](https://github.com/AndreyZlobin/semantic/commit/246bf3a99278860c57369a8175473feda05452f6))
+
 ## [1.2.0](https://github.com/AndreyZlobin/semantic/compare/v1.1.1...v1.2.0) (2023-09-21)
 
 
