@@ -1,5 +1,6 @@
 module.exports = {
     "branches": ["main"],
+    repositoryUrl: 'https://github.com/AndreyZlobin/semantic',
     plugins: [
       [
         '@semantic-release/commit-analyzer',
