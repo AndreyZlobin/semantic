@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/AndreyZlobin/semantic/compare/v1.5.0...v1.6.0) (2023-09-21)
+
+
+### ✨ Features
+
+* Test ([13d9f58](https://github.com/AndreyZlobin/semantic/commit/13d9f58de13b63565a35ca376665b122ccc98587))
+
 ## [1.5.0](https://github.com/AndreyZlobin/semantic/compare/v1.4.0...v1.5.0) (2023-09-21)
 
 
