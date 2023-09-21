@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/AndreyZlobin/semantic/compare/v1.3.1...v1.4.0) (2023-09-21)
+
+
+### ✨ Features
+
+* Test pr tempalte ([fea1200](https://github.com/AndreyZlobin/semantic/commit/fea1200a2ba2acdaf645da34c131b55db8a8ed56))
+
 ## [1.3.1](https://github.com/AndreyZlobin/semantic/compare/v1.3.0...v1.3.1) (2023-09-21)
 
 ## [1.3.0](https://github.com/AndreyZlobin/semantic/compare/v1.2.0...v1.3.0) (2023-09-21)
