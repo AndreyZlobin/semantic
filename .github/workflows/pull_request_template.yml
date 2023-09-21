@@ -1,0 +1,51 @@
+name: Pull Request Template
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  pr_template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add PR Template Comment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const prNumber = context.payload.pull_request.number;
+            const prTemplate = `
+# Заголовок Pull Request
+
+## Описание
+
+Опишите здесь, какие изменения вы вносите и почему.
+
+## Проверки
+
+Пожалуйста, проверьте следующие пункты, прежде чем отправить PR:
+
+- [ ] Я проверил код на наличие ошибок и внес необходимые исправления.
+- [ ] Все тесты успешно прошли.
+- [ ] Я добавил или обновил документацию, если это необходимо.
+- [ ] PR не содержит ненужных файлов или изменений.
+
+## Связанные задачи
+
+Если ваш PR связан с какой-либо задачей (например, issue), укажите ее здесь.
+
+## Замечания
+
+Если у вас есть какие-либо замечания или специальные инструкции для проверяющих, укажите их здесь.
+
+## Скриншоты (по желанию)
+
+Если применимо, добавьте скриншоты или изображения, чтобы помочь визуально представить внесенные изменения.
+`;
+
+            github.issues.createComment({
+              issue_number: prNumber,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: prTemplate,
+            });
