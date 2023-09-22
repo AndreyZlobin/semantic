@@ -1,3 +1,12 @@
+# Changelog
+
+## [2.0.0](https://github.com/AndreyZlobin/semantic/compare/v1.6.0...v2.0.0) (2023-09-22)
+
+
+### ✨ Features
+
+* Add ts ([2e3e23a](https://github.com/AndreyZlobin/semantic/commit/2e3e23a9abac4fa0cfef8d68c1f1794ee3645252))
+
 ## [1.6.0](https://github.com/AndreyZlobin/semantic/compare/v1.5.0...v1.6.0) (2023-09-21)
 
 
