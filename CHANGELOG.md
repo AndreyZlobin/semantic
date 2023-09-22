@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/AndreyZlobin/semantic/compare/v2.2.0...v2.3.0) (2023-09-22)
+
+
+### ✨ Features
+
+* update ([feb880d](https://github.com/AndreyZlobin/semantic/commit/feb880d2e2fcbcb37d9ab4f536d58f1857299564))
+
 ## [2.2.0](https://github.com/AndreyZlobin/semantic/compare/v2.1.0...v2.2.0) (2023-09-22)
 
 
