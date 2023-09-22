@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.0](https://github.com/AndreyZlobin/semantic/compare/v2.1.0...v2.2.0) (2023-09-22)
+
+
+### ✨ Features
+
+* Add feat doc ([abb4a26](https://github.com/AndreyZlobin/semantic/commit/abb4a26681885a18842ea1bc675bd0ec38f330e6))
+
+
+### 📄 Docs
+
+* Add doc ([5445e77](https://github.com/AndreyZlobin/semantic/commit/5445e7787386be82f31dff1798a243330f3b1a62))
+
 ## [2.1.0](https://github.com/AndreyZlobin/semantic/compare/v2.0.0...v2.1.0) (2023-09-22)
 
 
