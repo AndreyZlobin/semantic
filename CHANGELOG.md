@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/AndreyZlobin/semantic/compare/v2.0.0...v2.1.0) (2023-09-22)
+
+
+### ✨ Features
+
+* Add css ([d9e42de](https://github.com/AndreyZlobin/semantic/commit/d9e42deaae995316706ee8033bc76f1177113308))
+* Add test.md ([312e1f2](https://github.com/AndreyZlobin/semantic/commit/312e1f2dbbf15ba7038f68d23d890d4b63894f27))
+* Remove ts ([b969899](https://github.com/AndreyZlobin/semantic/commit/b969899a73d757a95b482284334f266495a39dd7))
+
 ## [2.0.0](https://github.com/AndreyZlobin/semantic/compare/v1.6.0...v2.0.0) (2023-09-22)
 
 
