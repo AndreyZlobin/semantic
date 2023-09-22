@@ -1,9 +1,10 @@
-name: Release
+name: Create release
 
 on:
   push:
     branches:
       - main
+
 
 jobs:
   release:
@@ -17,6 +18,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18.x'
+
+      - name: set npmrc github token
+        run: |
+          echo "@username:registry=https://npm.pkg.github.com" > .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
 
       - name: Install Dependencies
         run: npm install

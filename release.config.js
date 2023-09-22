@@ -50,6 +50,7 @@ module.exports = {
         '@semantic-release/changelog',
         {
           changelogFile: 'CHANGELOG.md',
+          changelogTitle: "# Changelog"
         },
       ],
       ['@semantic-release/github'],
@@ -61,11 +62,4 @@ module.exports = {
         }
       ]
     ],
-    
-    // "plugins": [
-    //   "@semantic-release/commit-analyzer",
-    //   "@semantic-release/release-notes-generator",
-    //   "@semantic-release/npm",
-
-    // ]
 }
